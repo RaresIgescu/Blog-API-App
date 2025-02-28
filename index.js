@@ -63,7 +63,6 @@ app.post("/posts", (req, res) => {
   res.json(newPost);
 });
 
-//CHALLENGE 4: PATCH a post when you just want to update one parameter
 app.patch("/posts/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const post = posts.find((post) => post.id === id);
@@ -76,7 +75,6 @@ app.patch("/posts/:id", (req, res) => {
   res.json(post);
 });
 
-//CHALLENGE 5: DELETE a specific post by providing the post id.
 app.delete("posts/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const post = posts.find((post) => post.id === id);
