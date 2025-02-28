@@ -21,7 +21,7 @@ Ensure you have **Node.js** installed on your system.
 ### Steps to Run the Project
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/blog-post-management.git
+   git clone https://github.com/your-username/Blog-API-App.git
    cd blog-post-management
    ```
 
